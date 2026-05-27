@@ -1,0 +1,7 @@
+Pkt 0: 10.0.1.45 -> 255.255.255.255 | Proto: UDP | Size: 300 bytes (DHCP Request)
+Pkt 1: 10.0.1.1 -> 10.0.1.45 | Proto: UDP | Size: 300 bytes (DHCP ACK - IP Assigned)
+Pkt 2: 10.0.1.45 -> 8.8.8.8 | Proto: UDP | Size: 68 bytes (DNS Query: status.office.com)
+Pkt 3: 8.8.8.8 -> 10.0.1.45 | Proto: UDP | Size: 142 bytes (DNS Response: 23.212.52.10)
+Pkt 4: 10.0.1.45 -> 23.212.52.10 | Proto: TCP | Size: 60 bytes (TCP SYN - HTTPS Init)
+Pkt 5: 23.212.52.10 -> 10.0.1.45 | Proto: TCP | Size: 60 bytes (TCP SYN-ACK)
+Pkt 6: 10.0.1.45 -> 23.212.52.10 | Proto: TCP | Size: 54 bytes (TCP ACK - Handshake Complete)
