@@ -6,7 +6,7 @@ The LLM Log Analyzer takes `.pcapng` or `.pcap` files and uses an LLM to analyze
 
 ### How does it work?
 
-The LLM Log Analyzer uses Streamlit python for a sleek, easy-to-navigate UI and the qwen2.5-coder:7B model from ollama. During production, the LLM was successfully run from a USB drive, but if your system has the appropriate resources, feel free to run it locally. The only trade off is that USB drive LLMs take slightly longer to respond to prompts. Regardless of how you store the LLM, the project is fully offline and chats are stored in Streamlit's session state, which clears every time the page is reloaded. This means that you can upload raw, unfiltered data to the LLM and receive an analysis without worrying about sensitive info like IPs and MAC addresses being stored in its memory. 
+The LLM Log Analyzer uses Streamlit python for a sleek, easy-to-navigate UI and the ```qwen2.5-coder:7B``` model from ollama. During production, the LLM was successfully run from a USB drive, but if your system has the appropriate resources, feel free to run it locally. The only trade off is that USB drive LLMs take slightly longer to respond to prompts. Regardless of how you store the LLM, the project is fully offline and chats are stored in Streamlit's session state, which clears every time the page is reloaded. This means that you can upload raw, unfiltered data to the LLM and receive an analysis without worrying about sensitive info like IPs and MAC addresses being stored in its memory. 
 
 ### Prerequisites: 
 
@@ -40,6 +40,10 @@ And finally, run:
 
 The web app should spin up posthaste. You may either send log snippets directly through the chat interface, or upload .pcap or .pcapng files up to 200MB in size. Observe the LLM's response and enjoy easier log analysis.  
 
+
+### Note:
+
+If you lack log data to test the LLM with, you can use the provided [normal.txt](normal.txt) and [attack.txt](attack.txt). The former simulates normal network activity and the latter simulates an attempted DDoS attack. You can use these files to immediately determine how accurate the LLM is at identifying issues. 
 
 ### Disclaimer:
 
