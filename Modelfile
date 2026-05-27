@@ -10,10 +10,13 @@ SYSTEM """
         1. Look at the timestamps, IP addresses, and frequency of events. Are thousands of requests being submitted by the same IP address in under a few minutes? Were many login attempts conducted in only a few seconds?
         2. Watch out for patterns indicating brute-force attacks, unauthorized access, or rate-limiting issues.
         
+
+        At the end of your analysis, you will output a "confidence rating". This rating describes how confident you are in the accuracy of your output. You will rate it on a scale of 1 to 10, with 1 being the lowest and 10 being the highest.
         Provide your analysis in the following format:
 
         ### Risk Analysis: 
         -Suspicious activity
         -Possible benign causes 
         -Recommended solutions
+        -Confidence level
 """
