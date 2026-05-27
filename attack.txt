@@ -1,0 +1,6 @@
+Pkt 0: 10.0.1.99 -> 8.8.8.8 | Proto: ICMP | Size: 64 bytes (Standard Ping Echo Request)
+Pkt 1: 8.8.8.8 -> 10.0.1.99 | Proto: ICMP | Size: 64 bytes (Standard Ping Echo Reply)
+Pkt 2: 10.0.1.99 -> 185.220.101.5 | Proto: ICMP | Size: 1500 bytes (Anomalous Large Ping Request - Data Chunk 1)
+Pkt 3: 10.0.1.99 -> 185.220.101.5 | Proto: ICMP | Size: 1500 bytes (Anomalous Large Ping Request - Data Chunk 2)
+Pkt 4: 10.0.1.99 -> 185.220.101.5 | Proto: ICMP | Size: 1500 bytes (Anomalous Large Ping Request - Data Chunk 3)
+Pkt 5: 185.220.101.5 -> 10.0.1.99 | Proto: ICMP | Size: 64 bytes (Ping Echo Reply)
